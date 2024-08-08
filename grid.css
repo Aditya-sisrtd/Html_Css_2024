@@ -1,0 +1,46 @@
+#container {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  display: grid;
+  gap: 10px;
+  grid-template-areas: 
+  "s a a a b"
+  "s c c c d"
+  "s c c c f"
+  "s e e e f"
+  "s e e e f"
+  ;
+}
+.eg1 {
+  background-color: violet;
+  grid-area: s;
+}
+.eg2 {
+  background-color: indigo;
+  grid-area: a;
+}
+.eg3 {
+  background-color: blue;
+  grid-area: b;
+}
+.eg4 {
+  background-color: green;
+  grid-area: c;
+}
+.eg5 {
+  background-color: violet;
+  grid-area: d;
+}
+.eg6 {
+  background-color: indigo;
+  grid-area: e;
+}
+.eg7 {
+  background-color: blue;
+  grid-area: f;
+}
+.eg8 {
+  background-color: green;
+  grid-area: f;
+}

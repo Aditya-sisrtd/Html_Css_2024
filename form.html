@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms</title>
+  </head>
+  <body>
+    <form action="">
+      <!-- Input Tag -->
+      <label for="name">Full Name : </label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Enter Your Name"
+        name="full_name"
+      />
+      <br />
+      <label for="my_contact">My Contact : </label>
+      <input
+        id="my_contact"
+        type="number"
+        placeholder="+91XXXXXXXXXX"
+        name="contact_number"
+      />
+      <br />
+      <label for="mail_me">Mail Me : </label>
+      <input
+        id="mail_me"
+        type="email"
+        placeholder="yourmail@gmail.com"
+        name="mail"
+      />
+      <br />
+      <label for="pwd">Enter Your Password : </label>
+      <input id="pwd" type="password" placeholder="password" name="password" />
+      <br />
+      <label for="dte">Date : </label>
+      <input id="dte" type="date" />
+      <br />
+      <label for="rng">Range : </label>
+      <input id="rng" type="range" />
+      <br />
+      <label for="clr">Choose Color : </label>
+      <input id="clr" type="color" />
+      <br />
+      <label for="file">Upload Your File : </label>
+      <input id="file" type="file" />
+      <br />
+      <label for="link">Paste Your Link Here : </label>
+      <input id="link" type="url" placeholder="https://google.com" />
+      <input type="reset" value="DontReset" />
+      <input type="submit" value="Jama Karo" />
+      <!--Radio Button-->
+      <p>Select Gender Multiple valued</p>
+      <input type="radio" />Male <input type="radio" />Female
+      <input type="radio" />Other
+      <p>Select Gender single valued</p>
+      <input type="radio" value="male" name="gender" />Male
+      <input type="radio" value="female" name="gender" />Female
+      <input type="radio" value="other" name="gender" />Other
+      <!-- CHECK BOX-->
+      <input type="checkbox" name="hobby" value="cricket" />cricket
+      <input type="checkbox" name="hobby" value="basketball" />basketball
+      <input type="checkbox" name="hobby" value="cricket" />cricket
+      <input type="checkbox" name="hobby" value="basketball" />basketball
+      <!--CREATING DROPDOWN-->
+      <br />
+      <label for="brands">Select your favourite car brand</label>
+      <select id="brands" name="car_brand" id="car" multiple>
+        <option value="bmw">BMW</option>
+        <option value="maruti">AUDI</option>
+        <option value="mg">MG</option>
+        <option value="buggatti">BUGGATTI</option>
+      </select>
+      <br />
+      <!--Text Area-->
+      <textarea
+        name="comment"
+        id="textID"
+        placeholder="Add you comment"
+        rows="10"
+        cols="20"
+      ></textarea>
+      <!--Button-->
+      <button type="button">Login</button>
+      <button type="submit"></button>
+      <button type="reset"></button>
+      <br />
+      <button></button>
+    </form>
+  </body>
+</html>

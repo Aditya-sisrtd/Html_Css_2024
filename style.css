@@ -1,0 +1,18 @@
+*{
+    background-color: rgb(45, 92, 76);
+    color: antiquewhite;
+    padding: 0;
+    margin: 0;
+    
+}
+#navStyle{
+    background-color: black ;
+    color: antiquewhite ;
+}
+#about{
+    align-items: center;
+    
+}
+#image1{
+    border-radius: 50%;
+}
